@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/home', (req, res) => {
+app.post('/home', (req, res) => {
     const user = {
         name: "Marcos",
         nickname: "spell"
