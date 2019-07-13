@@ -2,9 +2,9 @@
 const nameDiv = <HTMLInputElement>document.querySelector("#name")
 const nickDiv = <HTMLInputElement>document.querySelector("#nickname")
 
-// const PORT: any =
 
 fetch("https://semcontrato.azurewebsites.net/home", {
+    // fetch("http://localhost:3000/home", {
     method: "GET",
     mode: "cors",
     headers: {
