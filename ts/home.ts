@@ -4,7 +4,7 @@ const nickDiv = <HTMLInputElement>document.querySelector("#nickname")
 
 // const PORT: any =
 
-fetch("http://localhost/home", {
+fetch("https://semcontrato.azurewebsites.net/home", {
     method: "GET",
     mode: "cors",
     headers: {
