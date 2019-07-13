@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "public/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "public/ts/**/*"
+    ]
+}
