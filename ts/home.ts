@@ -1,8 +1,10 @@
-const nameDiv = <HTMLInputElement>document.querySelector("#name")
 
+const nameDiv = <HTMLInputElement>document.querySelector("#name")
 const nickDiv = <HTMLInputElement>document.querySelector("#nickname")
 
-fetch("http://localhost:3000/home", {
+// const PORT: any =
+
+fetch("http://localhost/home", {
     method: "GET",
     mode: "cors",
     headers: {
